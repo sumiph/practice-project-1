@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   height: 60vh;
+   width: 100%;
+   background-color: rgb(228, 222, 222);
+}
+.text-1st{
+ padding: 30px;
+ margin-top: 15%;
+ margin-left: 10%;
+}
+.text-1st p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+}
+.text-1st .btn-buy{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    background-color:rgb(61, 2, 129) ;
+    color: azure;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.pic-1 img{ 
+    height: 300px;
+    width: 90%;
+    ;
+}
+.pic-1{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+/*header */
+.main-text{ 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main{
+    width: 100%;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   height: 80vh;
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+   height: 400px;
+   width: 48vh;
+   border-radius: 5px;
+   margin-left: 20px;
+   
+}
+.card img{
+height: 170px;
+width: auto;
+margin-top: 30px;
+margin-left: 30px;
+}
+.card h1{
+padding: 10px;
+color: white;
+margin-bottom: 0;
+}
+.card .flex{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+}
+.card p{
+    padding: 10px;
+}
+.card-btn{
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:rgb(61, 2, 129) ;
+    color: azure;
+    font-weight: bold;
+    border: none;
+    
+}
+/*end main*/
